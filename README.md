@@ -38,7 +38,7 @@ CraftinSky cherche à améliorer la survie Skyblock en ajoutant du contenu utile
 
 ## Carte de survie
 
-Le dossier `craftinsky_V1.XX` contient la map survie skyblock, avec le datapack intégré. Après avoir téléchargé ou cloné le dépôt, copiez ce dossier dans le répertoire saves de votre installation Minecraft.
+Le dossier `craftinsky_V1.XX` contient la map Minecraft survie skyblock, avec le datapack intégré. Après avoir téléchargé ou cloné le dépôt, copiez ce dossier dans le répertoire `saves` de votre installation Minecraft. ``
 ## Carte de test
 
 Le dossier `Pack test` contient une map Minecraft permettant de tester les ajouts de CraftinSky directement en jeu, notamment via des blocs de commande. Après avoir téléchargé ou cloné le dépôt, copiez ce dossier dans le répertoire `saves` de votre installation Minecraft.
