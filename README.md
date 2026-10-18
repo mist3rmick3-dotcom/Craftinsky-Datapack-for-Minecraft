@@ -1,5 +1,7 @@
 # CraftinSky — Présentation du datapack
 
+https://discord.gg/umMeHjHn2
+
 CraftinSky est un datapack pensé pour enrichir l’expérience de survie en Skyblock Vanilla, tout en gardant l’esprit du gameplay Minecraft.
 
 Son but est de rendre la progression plus vivante, plus progressive et plus agréable, en ajoutant des mécaniques utiles et cohérentes avec le départ limité d’un monde Skyblock.
