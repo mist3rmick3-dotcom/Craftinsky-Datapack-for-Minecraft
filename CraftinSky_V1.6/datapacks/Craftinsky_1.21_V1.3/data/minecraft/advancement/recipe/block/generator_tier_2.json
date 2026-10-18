@@ -1,0 +1,36 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_diamond_pickaxe": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:diamond_pickaxe"
+					}
+				]
+			}
+		},
+		"has_lodestone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:lodestone"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_diamond_pickaxe",
+			"has_lodestone"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"minecraft:block/generator_tier_2"
+		]
+	}
+}

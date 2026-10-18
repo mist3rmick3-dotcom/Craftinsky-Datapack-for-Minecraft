@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "building",
+	"ingredients": [
+		"minecraft:nether_wart_block"
+	],
+	"ingredient": "minecraft:andesite",
+	"result": {
+		"count": 9,
+		"id": "minecraft:nether_wart"
+	}
+}

@@ -1,0 +1,31 @@
+{
+	"parent": "craftinsky:a_farmer_root",
+
+	
+	"display": {
+		"icon": {
+			"id": "minecraft:mud"
+		},
+		"title": "Substrate",
+		"description": "place it next to a full composter !",
+		"frame": "task",
+		"show_toast": false,
+		"announce_to_chat": false,
+		"hidden": true
+	},
+	"criteria": {
+		"has_mud": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:mud",
+						"count": {
+							"min": 1
+						}
+					}
+				]
+			}
+		}
+	}
+}

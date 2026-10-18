@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:smelting",
+	"category": "building",
+	"group": "planks",
+	"ingredients": [
+		"minecraft:dripstone_block"
+	],
+	"ingredient": "minecraft:diorite",
+	"result": {
+		"count": 1,
+		"id": "minecraft:cobbled_deepslate"
+	}
+}

@@ -1,0 +1,16 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "block",
+	
+	"key": {
+		"#": "minecraft:granite"
+	},
+	"pattern": [
+		"##",
+		"##"
+	],
+	"result": {
+		"count": 1,
+		"id": "minecraft:dripstone_block"
+	}
+}

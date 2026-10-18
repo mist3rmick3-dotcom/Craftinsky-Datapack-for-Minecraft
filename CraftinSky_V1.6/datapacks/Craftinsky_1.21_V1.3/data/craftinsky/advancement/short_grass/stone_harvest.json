@@ -1,0 +1,29 @@
+{
+  "parent": "craftinsky:short_grass/wooden_harvest",
+  "display": {
+    "icon": {
+      "id": "minecraft:sweet_berries"
+    },
+    "title": "Sweet Berries",
+    "description": "use a shiny item on it !",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "get_berries": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:sweet_berries"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "craftinsky:short_grass/reward_stone_harvest"
+  }
+}

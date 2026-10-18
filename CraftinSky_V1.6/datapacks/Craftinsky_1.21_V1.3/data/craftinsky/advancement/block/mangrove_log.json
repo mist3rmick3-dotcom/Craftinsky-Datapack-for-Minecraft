@@ -1,0 +1,32 @@
+{
+  "parent": "craftinsky:block/jungle_log",
+  "display": {
+    "icon": {
+      "id": "minecraft:mangrove_log"
+    },
+    "title": "Mangrove collector",
+    "description": "Weeeee, the last logs in the Overworld !",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "has_mangrove_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mangrove_log",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "craftinsky:block/check_mangrove_log"
+  }
+}

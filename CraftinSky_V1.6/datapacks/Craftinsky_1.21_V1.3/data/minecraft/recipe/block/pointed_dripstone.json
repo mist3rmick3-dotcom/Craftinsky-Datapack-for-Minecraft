@@ -1,0 +1,12 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "building",
+	"group": "planks",
+	"ingredients": [
+		"minecraft:dripstone_block"
+	],
+	"result": {
+		"count": 1,
+		"id": "minecraft:pointed_dripstone"
+	}
+}

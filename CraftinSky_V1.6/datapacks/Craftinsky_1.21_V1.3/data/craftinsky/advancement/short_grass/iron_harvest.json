@@ -1,0 +1,29 @@
+{
+  "parent": "craftinsky:short_grass/copper_harvest",
+  "display": {
+    "icon": {
+      "id": "minecraft:pumpkin_seeds"
+    },
+    "title": "Pumpkin Seeds",
+    "description": "Get pumpkin seeds from grass with an iron hoe",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "get_pumpkin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pumpkin_seeds"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "craftinsky:short_grass/reward_iron_harvest"
+  }
+}

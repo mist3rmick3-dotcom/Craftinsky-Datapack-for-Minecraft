@@ -1,0 +1,29 @@
+{
+  "parent": "craftinsky:a_farmer_root",
+  "display": {
+    "icon": {
+      "id": "minecraft:beetroot_seeds"
+    },
+    "title": "Beetroot Seeds",
+    "description": "Get beetroot seeds from grass with a wooden hoe",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "get_beetroot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:beetroot_seeds"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "craftinsky:short_grass/reward_wooden_harvest"
+  }
+}

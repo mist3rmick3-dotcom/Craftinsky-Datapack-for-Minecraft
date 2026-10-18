@@ -1,0 +1,34 @@
+{
+	"parent": "craftinsky:block/substrate",
+
+	
+	"display": {
+		"icon": {
+			"id": "minecraft:brown_mushroom"
+		},
+		"title": "First ingredient!",
+		"description": "You need more ingredients !",
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": false,
+		"hidden": true
+	},
+	"criteria": {
+		"has_brown_mushroom": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:brown_mushroom",
+						"count": {
+							"min": 1
+						}
+					}
+				]
+			}
+		}
+	},
+	"rewards": {
+		"function": "craftinsky:block/check_brown_mushroom"
+	}
+}

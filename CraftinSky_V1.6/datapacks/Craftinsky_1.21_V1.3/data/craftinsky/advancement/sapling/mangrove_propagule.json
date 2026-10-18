@@ -1,0 +1,32 @@
+{
+	"parent": "craftinsky:sapling/jungle_sapling",
+	"display": {
+    "icon": {
+			"id": "minecraft:mangrove_propagule"
+		    },
+	 "title": "it's not a sapling !",
+	 "description": "But you can obtain wood with it, so...",
+     "frame": "task",
+     "show_toast": true,
+     "announce_to_chat": false,
+     "hidden": true
+		
+	},
+
+  "criteria": {
+    "get_mangrove_propagule": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mangrove_propagule"
+          }
+        ]
+      }
+    }
+  },
+     "rewards": {
+    "function": "craftinsky:sapling/check_mangrove_propagule"
+  }
+
+}

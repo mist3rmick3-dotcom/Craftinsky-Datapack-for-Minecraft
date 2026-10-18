@@ -1,0 +1,32 @@
+{
+  "parent": "craftinsky:block/cherry_log",
+  "display": {
+    "icon": {
+      "id": "minecraft:pale_oak_log"
+    },
+    "title": "Pale Oak collector",
+    "description": "Pale wood, it's like oak but paler !",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "has_pale_oak": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pale_oak_log",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "craftinsky:block/check_pale_oak_log"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "parent": "craftinsky:short_grass/golden_harvest",
+  "display": {
+    "icon": {
+      "id": "minecraft:bamboo"
+    },
+    "title": "Bamboo",
+    "description": "Get bamboo from grass with a diamond hoe",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "get_bamboo": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bamboo"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "craftinsky:short_grass/reward_diamond_harvest"
+  }
+}

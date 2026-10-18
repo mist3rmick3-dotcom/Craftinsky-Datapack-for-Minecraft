@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_netherrack": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [ { "items": "minecraft:netherrack" } ]
+      }
+    },
+    "has_redstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [ { "items": "minecraft:redstone" } ]
+      }
+    }
+  },
+  "requirements": [["has_netherrack"],["has_redstone"]],
+  "rewards": {
+    "recipes": ["minecraft:block/crimson_nylium"]
+  }
+}

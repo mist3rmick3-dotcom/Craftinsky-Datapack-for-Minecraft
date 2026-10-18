@@ -1,0 +1,32 @@
+{
+	"parent": "craftinsky:a_farmer_root",
+	"display": {
+    "icon": {
+			"id": "minecraft:oak_sapling"
+		    },
+	 "title": "My firts oak sapling ",
+	 "description": "The first one",
+     "frame": "task",
+     "show_toast": true,
+     "announce_to_chat": false,
+     "hidden": true
+		
+	},
+
+  "criteria": {
+    "get_cane": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:oak_sapling"
+          }
+        ]
+      }
+    }
+  },
+     "rewards": {
+    "function": "craftinsky:sapling/check_oak_sapling"
+  }
+
+}

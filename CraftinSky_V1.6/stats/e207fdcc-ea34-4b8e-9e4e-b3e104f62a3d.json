@@ -1,0 +1,31 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "minecraft:apple": 1
+    },
+    "minecraft:custom": {
+      "minecraft:open_chest": 1,
+      "minecraft:time_since_rest": 6140,
+      "minecraft:walk_one_cm": 4404,
+      "minecraft:total_world_time": 7496,
+      "minecraft:leave_game": 3,
+      "minecraft:fly_one_cm": 3189,
+      "minecraft:crouch_one_cm": 1504,
+      "minecraft:sneak_time": 515,
+      "minecraft:play_time": 6140,
+      "minecraft:jump": 4,
+      "minecraft:time_since_death": 6140
+    },
+    "minecraft:used": {
+      "minecraft:grass_block": 29,
+      "minecraft:bone_meal": 12,
+      "minecraft:chest": 1,
+      "minecraft:poppy": 1,
+      "minecraft:oak_leaves": 4,
+      "minecraft:oak_sapling": 2,
+      "minecraft:short_grass": 3,
+      "minecraft:dirt": 55
+    }
+  },
+  "DataVersion": 4671
+}

@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:blasting",
+	"category": "misc",
+	"key": {
+		"#": "minecraft:redstone",
+		"N": "minecraft:netherrack"
+	},
+	"pattern": [
+		"###",
+		"NNN",
+		"NNN"
+	],
+	"ingredients": [
+		[
+			"minecraft:fire_charge"
+		]
+	],
+	"ingredient": "minecraft:gunpowder",
+	"result": {
+		"count": 1,
+		"id": "minecraft:redstone"
+	}
+}

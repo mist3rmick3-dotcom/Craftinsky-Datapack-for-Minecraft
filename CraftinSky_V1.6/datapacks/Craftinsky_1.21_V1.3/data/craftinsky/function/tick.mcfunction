@@ -1,0 +1,9 @@
+# Moss converter détection et conversion
+function craftinsky:moss_converter/moss_converter_detect
+function craftinsky:moss_converter/moss_converter_tick
+
+# Tick du générateur tier 2
+function craftinsky:generator_tier_2/generator_place
+function craftinsky:generator_tier_2/generator_check
+function craftinsky:generator_tier_2/generator_particles
+function craftinsky:generator_tier_2/generator_tick

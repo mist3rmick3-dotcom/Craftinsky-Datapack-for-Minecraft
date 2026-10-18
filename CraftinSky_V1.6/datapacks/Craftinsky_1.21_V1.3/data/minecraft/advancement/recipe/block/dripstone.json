@@ -1,0 +1,19 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_granite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{"items": "minecraft:granite"}
+				]
+			}
+		}
+	},
+	"requirements": [["has_granite"]],
+	"rewards": {
+		"recipes": [
+			"minecraft:block/dripstone"
+		]
+	}
+}

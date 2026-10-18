@@ -1,0 +1,33 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2026-02-19 17:15:37 +0100"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2026-02-19 17:15:37 +0100"
+    },
+    "done": false
+  },
+  "craftinsky:c_hunt_root": {
+    "criteria": {
+      "tick": "2026-02-19 17:15:37 +0100"
+    },
+    "done": true
+  },
+  "craftinsky:b_blocks_root": {
+    "criteria": {
+      "tick": "2026-02-19 17:15:37 +0100"
+    },
+    "done": true
+  },
+  "craftinsky:a_farmer_root": {
+    "criteria": {
+      "tick": "2026-02-19 17:15:37 +0100"
+    },
+    "done": true
+  },
+  "DataVersion": 4671
+}

@@ -1,0 +1,146 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:short_grass",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "items": ["minecraft:shears"]
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:wheat_seeds",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.125
+                },
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                      "items": [
+                        "minecraft:wooden_hoe",
+                        "minecraft:stone_hoe",
+                        "minecraft:iron_hoe",
+                        "minecraft:copper_hoe",
+                        "minecraft:golden_hoe",
+                        "minecraft:diamond_hoe",
+                        "minecraft:netherite_hoe"
+                      ]
+                    }
+                  }
+                }
+              ],
+              "functions": [
+                {
+                  "function": "minecraft:apply_bonus",
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:uniform_bonus_count",
+                  "parameters": {
+                    "bonusMultiplier": 2
+                  }
+                },
+                {
+                  "function": "minecraft:explosion_decay"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+    {
+      "rolls": 1,
+      "conditions": [
+        { "condition": "minecraft:match_tool", "predicate": { "items": ["minecraft:wooden_hoe"] } },
+        { "condition": "minecraft:random_chance", "chance": 0.07 }
+      ],
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:beetroot_seeds" }  
+      ]
+    },
+
+    {
+      "rolls": 1,
+      "conditions": [
+        { "condition": "minecraft:match_tool", "predicate": { "items": ["minecraft:stone_hoe"] } },
+        { "condition": "minecraft:random_chance", "chance": 0.07 }
+      ],
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:sweet_berries" }   
+      ]
+    },
+
+    {
+      "rolls": 1,
+      "conditions": [
+        { "condition": "minecraft:match_tool", "predicate": { "items": ["minecraft:copper_hoe"] } },
+        { "condition": "minecraft:random_chance", "chance": 0.07 }
+      ],
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:melon_seeds" }     
+      ]
+    },
+
+    {
+      "rolls": 1,
+      "conditions": [
+        { "condition": "minecraft:match_tool", "predicate": { "items": ["minecraft:iron_hoe"] } },
+        { "condition": "minecraft:random_chance", "chance": 0.07 }
+      ],
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:pumpkin_seeds" }   
+      ]
+    },
+
+    {
+      "rolls": 1,
+      "conditions": [
+        { "condition": "minecraft:match_tool", "predicate": { "items": ["minecraft:golden_hoe"] } },
+        { "condition": "minecraft:random_chance", "chance": 0.07 }
+      ],
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:sugar_cane" }      
+      ]
+    },
+
+    {
+      "rolls": 1,
+      "conditions": [
+        { "condition": "minecraft:match_tool", "predicate": { "items": ["minecraft:diamond_hoe"] } },
+        { "condition": "minecraft:random_chance", "chance": 0.07 }
+      ],
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:bamboo" }          
+      ]
+    },
+
+    {
+      "rolls": 1,
+      "conditions": [
+        { "condition": "minecraft:match_tool", "predicate": { "items": ["minecraft:netherite_hoe"] } },
+        { "condition": "minecraft:random_chance", "chance": 0.07 }
+      ],
+      "entries": [
+        { "type": "minecraft:item", "name": "minecraft:cactus" }          
+      ]
+    }
+
+  ],
+  "random_sequence": "minecraft:blocks/short_grass"
+}

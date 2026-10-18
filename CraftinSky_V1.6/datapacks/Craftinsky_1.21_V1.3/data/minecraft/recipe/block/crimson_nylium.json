@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "block",
+	"key": {
+		"#": "minecraft:redstone",
+		"N": "minecraft:netherrack"
+	},
+	"pattern": [
+		"###",
+		"NNN",
+		"NNN"
+	],
+	"result": {
+		"count": 1,
+		"id": "minecraft:crimson_nylium"
+	}
+}

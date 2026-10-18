@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "left_click": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:interaction"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "left_click"
+    ]
+  ],
+  "rewards": {
+    "function": "craftinsky:cauldron_obsidian/debug_left_click"
+  }
+}

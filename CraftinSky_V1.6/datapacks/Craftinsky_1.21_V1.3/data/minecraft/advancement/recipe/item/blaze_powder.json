@@ -1,0 +1,19 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_fire_charge": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{"items": "minecraft:fire_charge"}
+				]
+			}
+		}
+	},
+	"requirements": [["has_fire_charge"]],
+	"rewards": {
+		"recipes": [
+			"minecraft:item/blaze_powder"
+		]
+	}
+}

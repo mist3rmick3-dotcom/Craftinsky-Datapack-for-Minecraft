@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "right_click": {
+      "trigger": "minecraft:player_interacting_with_entity",
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:interaction",
+              "nbt": "{Tags:['co_interaction']}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": { "function": "craftinsky:cauldron_obsidian/debug_click" }
+}

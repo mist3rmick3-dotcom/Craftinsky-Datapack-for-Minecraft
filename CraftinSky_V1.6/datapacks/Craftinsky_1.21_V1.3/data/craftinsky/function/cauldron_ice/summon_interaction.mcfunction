@@ -1,0 +1,9 @@
+# Nettoie les interactions orphelines
+execute as @e[type=interaction,tag=co_ice_interaction] at @s unless block ~ ~ ~ minecraft:water_cauldron run kill @s
+
+# Pose une interaction quand le joueur vise un water cauldron avec un snow_block
+execute as @a[nbt={SelectedItem:{id:"minecraft:snow_block"}}] at @s anchored eyes positioned ^ ^ ^1 align xyz positioned ~0.5 ~ ~0.5 if block ~ ~ ~ minecraft:water_cauldron unless entity @e[type=interaction,tag=co_ice_interaction,distance=..1.2] run summon interaction ~ ~ ~ {Tags:["co_ice_interaction"],width:1.01f,height:1.01f,response:1b}
+execute as @a[nbt={SelectedItem:{id:"minecraft:snow_block"}}] at @s anchored eyes positioned ^ ^ ^2 align xyz positioned ~0.5 ~ ~0.5 if block ~ ~ ~ minecraft:water_cauldron unless entity @e[type=interaction,tag=co_ice_interaction,distance=..1.2] run summon interaction ~ ~ ~ {Tags:["co_ice_interaction"],width:1.01f,height:1.01f,response:1b}
+execute as @a[nbt={SelectedItem:{id:"minecraft:snow_block"}}] at @s anchored eyes positioned ^ ^ ^3 align xyz positioned ~0.5 ~ ~0.5 if block ~ ~ ~ minecraft:water_cauldron unless entity @e[type=interaction,tag=co_ice_interaction,distance=..1.2] run summon interaction ~ ~ ~ {Tags:["co_ice_interaction"],width:1.01f,height:1.01f,response:1b}
+execute as @a[nbt={SelectedItem:{id:"minecraft:snow_block"}}] at @s anchored eyes positioned ^ ^ ^4 align xyz positioned ~0.5 ~ ~0.5 if block ~ ~ ~ minecraft:water_cauldron unless entity @e[type=interaction,tag=co_ice_interaction,distance=..1.2] run summon interaction ~ ~ ~ {Tags:["co_ice_interaction"],width:1.01f,height:1.01f,response:1b}
+execute as @a[nbt={SelectedItem:{id:"minecraft:snow_block"}}] at @s anchored eyes positioned ^ ^ ^5 align xyz positioned ~0.5 ~ ~0.5 if block ~ ~ ~ minecraft:water_cauldron unless entity @e[type=interaction,tag=co_ice_interaction,distance=..1.2] run summon interaction ~ ~ ~ {Tags:["co_ice_interaction"],width:1.01f,height:1.01f,response:1b}

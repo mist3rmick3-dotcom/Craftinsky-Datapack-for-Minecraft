@@ -1,0 +1,25 @@
+{
+  "parent": "craftinsky:block/muddy",
+  "display": {
+    "icon": { "id": "minecraft:clay" },
+    "title": "Clay Collector",
+    "description": "Try to cut this !",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "has_clay": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": "minecraft:clay", "count": { "min": 64 } }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "craftinsky:block/check_clay"
+  }
+}

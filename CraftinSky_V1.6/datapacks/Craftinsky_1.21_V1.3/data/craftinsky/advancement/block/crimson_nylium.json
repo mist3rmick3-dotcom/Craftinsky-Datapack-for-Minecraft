@@ -1,0 +1,25 @@
+{
+  "parent": "craftinsky:block/netherrack",
+  "display": {
+    "icon": { "id": "minecraft:crimson_nylium" },
+    "title": "Crimson Nylium Collector",
+    "description": "Collect 64 Crimson Nylium blocks.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "has_crimson_nylium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": "minecraft:crimson_nylium", "count": { "min": 64 } }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "craftinsky:block/check_crimson_nylium"
+  }
+}

@@ -1,0 +1,32 @@
+{
+	"parent": "craftinsky:sapling/pale_oak_sapling",
+	"display": {
+    "icon": {
+			"id": "minecraft:dark_oak_sapling"
+		    },
+	 "title": "yeah, a sapling, again !",
+	 "description": "realy ?",
+     "frame": "task",
+     "show_toast": true,
+     "announce_to_chat": false,
+     "hidden": true
+		
+	},
+
+  "criteria": {
+    "get_cane": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:dark_oak_sapling"
+          }
+        ]
+      }
+    }
+  },
+     "rewards": {
+    "function": "craftinsky:sapling/check_dark_oak_sapling"
+  }
+
+}

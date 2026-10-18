@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_netherrack": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [ { "items": "minecraft:netherrack" } ]
+      }
+    },
+    "has_moss_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [ { "items": "minecraft:moss_block" } ]
+      }
+    }
+  },
+  "requirements": [["has_netherrack"],["has_moss_block"]],
+  "rewards": {
+    "recipes": ["minecraft:block/warped_nylium"]
+  }
+}

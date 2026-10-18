@@ -1,0 +1,29 @@
+{
+  "parent": "craftinsky:short_grass/golden_harvest",
+  "display": {
+    "icon": {
+      "id": "minecraft:sugar"
+    },
+    "title": "Second ingredient !",
+    "description": "you need just one more !",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "get_sugar": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:sugar"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "craftinsky:item/reward_sugar"
+  }
+}

@@ -1,0 +1,9 @@
+# Nettoie les interactions orphelines
+execute as @e[type=interaction,tag=sc_interaction] at @s unless block ~ ~ ~ acacia_sapling run kill @s
+
+# Pose une interaction invisible quand le joueur vise un acacia sapling avec du pink dye
+execute as @a[nbt={SelectedItem:{id:"minecraft:pink_dye"}},tag=!sc_converted] at @s anchored eyes positioned ^ ^ ^1 align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ acacia_sapling unless entity @e[type=interaction,tag=sc_interaction,distance=..1.2] run summon interaction ~ ~-0.5 ~ {Tags:["sc_interaction"],width:1.0f,height:1.0f}
+execute as @a[nbt={SelectedItem:{id:"minecraft:pink_dye"}},tag=!sc_converted] at @s anchored eyes positioned ^ ^ ^2 align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ acacia_sapling unless entity @e[type=interaction,tag=sc_interaction,distance=..1.2] run summon interaction ~ ~-0.5 ~ {Tags:["sc_interaction"],width:1.0f,height:1.0f}
+execute as @a[nbt={SelectedItem:{id:"minecraft:pink_dye"}},tag=!sc_converted] at @s anchored eyes positioned ^ ^ ^3 align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ acacia_sapling unless entity @e[type=interaction,tag=sc_interaction,distance=..1.2] run summon interaction ~ ~-0.5 ~ {Tags:["sc_interaction"],width:1.0f,height:1.0f}
+execute as @a[nbt={SelectedItem:{id:"minecraft:pink_dye"}},tag=!sc_converted] at @s anchored eyes positioned ^ ^ ^4 align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ acacia_sapling unless entity @e[type=interaction,tag=sc_interaction,distance=..1.2] run summon interaction ~ ~-0.5 ~ {Tags:["sc_interaction"],width:1.0f,height:1.0f}
+execute as @a[nbt={SelectedItem:{id:"minecraft:pink_dye"}},tag=!sc_converted] at @s anchored eyes positioned ^ ^ ^5 align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ acacia_sapling unless entity @e[type=interaction,tag=sc_interaction,distance=..1.2] run summon interaction ~ ~-0.5 ~ {Tags:["sc_interaction"],width:1.0f,height:1.0f}
