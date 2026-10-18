@@ -1,0 +1,28 @@
+{
+  "parent": "craftinsky:snow_block",
+  "display": {
+    "icon": {
+      "id": "minecraft:snowball"
+    },
+    "title": "64 Snow Balls",
+    "description": "infinite snow balls ",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "has_snow_ball": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:snow_ball"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "craftinsky:reward_snow_ball"
+  }
+}

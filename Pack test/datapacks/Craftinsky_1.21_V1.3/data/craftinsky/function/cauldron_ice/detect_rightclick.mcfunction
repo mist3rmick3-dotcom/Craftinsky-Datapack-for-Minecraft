@@ -1,0 +1,1 @@
+execute as @e[type=interaction,tag=co_ice_interaction] at @s if data entity @s interaction run function craftinsky:cauldron_ice/right_click_detected

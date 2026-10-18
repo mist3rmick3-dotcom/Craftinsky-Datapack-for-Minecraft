@@ -35,3 +35,7 @@ Sons, particules, interactions et retours visuels ajoutés pour rendre les méca
 ## En résumé
 
 CraftinSky cherche à améliorer la survie Skyblock en ajoutant du contenu utile, progressif et cohérent : agriculture, bois, ressources, exploration et expérience de jeu, sans dénaturer les bases de Minecraft.
+
+## Carte de test
+
+Le dossier `Pack test` contient une map Minecraft permettant de tester les ajouts de CraftinSky directement en jeu, notamment via des blocs de commande. Après avoir téléchargé ou cloné le dépôt, copiez ce dossier dans le répertoire `saves` de votre installation Minecraft.

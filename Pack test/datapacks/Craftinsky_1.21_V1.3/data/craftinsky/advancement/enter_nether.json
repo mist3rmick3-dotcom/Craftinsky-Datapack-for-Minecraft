@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "enter_nether": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "minecraft:the_nether"
+      }
+    }
+  },
+  "rewards": {
+    "function": "craftinsky:enter_nether"
+  }
+}

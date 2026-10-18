@@ -1,0 +1,29 @@
+{
+  "parent": "craftinsky:block/gravel",
+  "display": {
+    "icon": {
+      "id": "minecraft:coarse_dirt"
+    },
+    "title": "Bad lands",
+    "description": "Get rid of it in the water",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "has_coarse_dirt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:coarse_dirt"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "craftinsky:check_bad_lands"
+  }
+}

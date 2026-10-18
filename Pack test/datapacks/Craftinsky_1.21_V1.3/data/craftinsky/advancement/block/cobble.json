@@ -1,0 +1,32 @@
+{
+  "parent": "craftinsky:b_blocks_root",
+  "display": {
+    "icon": {
+      "id": "minecraft:cobblestone"
+    },
+    "title": "Cobblestone collector",
+    "description": "you can cook that ",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "has_cobble": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cobblestone",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "craftinsky:block/check_cobble"
+  }
+}

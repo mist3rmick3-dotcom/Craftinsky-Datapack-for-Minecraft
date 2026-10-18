@@ -1,0 +1,32 @@
+{
+	"parent": "craftinsky:sapling/cherry_sapling",
+	"display": {
+    "icon": {
+			"id": "minecraft:pale_oak_sapling"
+		    },
+	 "title": "it's just a sad sapling !",
+	 "description": "it looks like it needs some love ...",
+     "frame": "task",
+     "show_toast": true,
+     "announce_to_chat": false,
+     "hidden": true
+		
+	},
+
+  "criteria": {
+    "get_cane": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:pale_oak_sapling"
+          }
+        ]
+      }
+    }
+  },
+     "rewards": {
+    "function": "craftinsky:sapling/check_pale_oak_sapling"
+  }
+
+}

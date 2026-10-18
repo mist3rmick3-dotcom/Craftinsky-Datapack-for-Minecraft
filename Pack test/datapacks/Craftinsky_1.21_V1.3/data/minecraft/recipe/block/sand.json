@@ -1,0 +1,13 @@
+{
+	"type": "minecraft:stonecutting",
+	"category": "building",
+	"group": "planks",
+	"ingredients": [
+		"minecraft:dripstone_block"
+	],
+	"ingredient": "minecraft:clay",
+	"result": {
+		"count": 1,
+		"id": "minecraft:sand"
+	}
+}

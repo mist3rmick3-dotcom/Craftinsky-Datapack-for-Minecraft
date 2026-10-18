@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "block",
+	"key": {
+		"#": "minecraft:moss_block",
+		"N": "minecraft:netherrack"
+	},
+	"pattern": [
+		"###",
+		"NNN",
+		"NNN"
+	],
+	"result": {
+		"count": 1,
+		"id": "minecraft:warped_nylium"
+	}
+}

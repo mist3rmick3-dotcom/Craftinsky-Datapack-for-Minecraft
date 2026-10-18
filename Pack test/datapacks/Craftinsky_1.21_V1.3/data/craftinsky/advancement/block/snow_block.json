@@ -1,0 +1,32 @@
+{
+	"parent": "craftinsky:c_hunt_root",
+	"display": {
+    "icon": {
+			"id": "minecraft:snow_block"
+		    },
+	 "title": "Snow Block",
+	 "description": "Snow Glolem is coming soon ",
+     "frame": "task",
+     "show_toast": true,
+     "announce_to_chat": false,
+     "hidden": true
+		
+	},
+
+  "criteria": {
+    "get_cane": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:snow_block"
+          }
+        ]
+      }
+    }
+  },
+     "rewards": {
+    "function": "craftinsky:block/reward_snow_block"
+  }
+
+}

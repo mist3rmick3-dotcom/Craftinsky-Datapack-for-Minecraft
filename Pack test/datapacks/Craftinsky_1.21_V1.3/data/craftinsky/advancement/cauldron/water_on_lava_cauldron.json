@@ -1,0 +1,12 @@
+{
+  "criteria": {
+    "use_water_bucket": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:water_bucket"]
+        }
+      }
+    }
+  }
+}

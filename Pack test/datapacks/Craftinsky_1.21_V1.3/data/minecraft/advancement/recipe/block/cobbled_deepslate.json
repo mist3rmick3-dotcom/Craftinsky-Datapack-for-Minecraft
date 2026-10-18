@@ -1,0 +1,19 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_diorite": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{"items": "minecraft:diorite"}
+				]
+			}
+		}
+	},
+	"requirements": [["has_diorite"]],
+	"rewards": {
+		"recipes": [
+			"minecraft:block/cobbled_deepslate"
+		]
+	}
+}

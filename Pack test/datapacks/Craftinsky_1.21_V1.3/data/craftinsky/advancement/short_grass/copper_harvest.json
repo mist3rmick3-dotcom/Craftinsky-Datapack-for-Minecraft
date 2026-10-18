@@ -1,0 +1,29 @@
+{
+  "parent": "craftinsky:short_grass/stone_harvest",
+  "display": {
+    "icon": {
+      "id": "minecraft:melon_seeds"
+    },
+    "title": "Melon Seeds",
+    "description": "Get melon seeds from grass with a copper hoe",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "get_melon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:melon_seeds"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "craftinsky:short_grass/reward_copper_harvest"
+  }
+}

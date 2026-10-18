@@ -1,0 +1,2 @@
+execute as @e[type=minecraft:item,tag=co_obsidian_drop,limit=1,sort=nearest] at @s run teleport @s @p[limit=1,distance=..6]
+tag @e[type=minecraft:item,tag=co_obsidian_drop,limit=1] remove co_obsidian_drop

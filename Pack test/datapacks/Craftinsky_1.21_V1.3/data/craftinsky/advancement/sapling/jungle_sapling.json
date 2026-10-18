@@ -1,0 +1,32 @@
+{
+	"parent": "craftinsky:sapling/dark_oak_sapling",
+	"display": {
+    "icon": {
+			"id": "minecraft:jungle_sapling"
+		    },
+	 "title": "Finaly !",
+	 "description": "The last one !",
+     "frame": "task",
+     "show_toast": true,
+     "announce_to_chat": false,
+     "hidden": true
+		
+	},
+
+  "criteria": {
+    "get_cane": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:jungle_sapling"
+          }
+        ]
+      }
+    }
+  },
+     "rewards": {
+    "function": "craftinsky:sapling/check_jungle_sapling"
+  }
+
+}

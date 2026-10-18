@@ -1,0 +1,25 @@
+{
+  "parent": "craftinsky:block/obsidian",
+  "display": {
+    "icon": { "id": "minecraft:netherrack" },
+    "title": "Netherrack Collector",
+    "description": "Collect 64 Netherrack blocks.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "has_netherrack": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": "minecraft:netherrack", "count": { "min": 64 } }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "craftinsky:block/check_netherrack"
+  }
+}

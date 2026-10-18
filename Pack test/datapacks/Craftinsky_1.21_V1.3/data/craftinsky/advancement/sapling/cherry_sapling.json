@@ -1,0 +1,32 @@
+{
+	"parent": "craftinsky:sapling/acacia_sapling",
+	"display": {
+    "icon": {
+			"id": "minecraft:cherry_sapling"
+		    },
+	 "title": "wow a cherry sapling !",
+	 "description": "what a surpise ... i guess",
+     "frame": "task",
+     "show_toast": true,
+     "announce_to_chat": false,
+     "hidden": true
+		
+	},
+
+  "criteria": {
+    "get_cane": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cherry_sapling"
+          }
+        ]
+      }
+    }
+  },
+     "rewards": {
+    "function": "craftinsky:sapling/check_cherry_sapling"
+  }
+
+}

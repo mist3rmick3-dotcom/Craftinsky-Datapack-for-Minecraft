@@ -1,0 +1,32 @@
+{
+  "parent": "craftinsky:block/spruce_log",
+  "display": {
+    "icon": {
+      "id": "minecraft:acacia_log"
+    },
+    "title": "Acacia collector",
+    "description": "A real game changer... nah, it's just wood !",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "has_acacia": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:acacia_log",
+            "count": {
+              "min": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "craftinsky:block/check_acacia_log"
+  }
+}

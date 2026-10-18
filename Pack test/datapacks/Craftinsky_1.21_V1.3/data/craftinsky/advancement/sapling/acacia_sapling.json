@@ -1,0 +1,32 @@
+{
+	"parent": "craftinsky:sapling/spruce_sapling",
+	"display": {
+    "icon": {
+			"id": "minecraft:acacia_sapling"
+		    },
+	 "title": "it's like mutation ?",
+	 "description": "It must look beautiful in pink !",
+     "frame": "task",
+     "show_toast": true,
+     "announce_to_chat": false,
+     "hidden": true
+		
+	},
+
+  "criteria": {
+    "get_cane": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:acacia_sapling"
+          }
+        ]
+      }
+    }
+  },
+     "rewards": {
+    "function": "craftinsky:sapling/check_acacia_sapling"
+  }
+
+}

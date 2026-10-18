@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "block",
+	"show_notification": true,
+	"key": {
+		"#": "minecraft:stone",
+		"W": "minecraft:water_bucket",
+		"L": "minecraft:lava_bucket",
+		"X": "minecraft:diamond_pickaxe",
+		"S": "minecraft:lodestone"
+	},
+	"pattern": [
+		"#X#",
+		"LSW",
+		"###"
+	],
+	"result": {
+		"count": 1,
+		"id": "minecraft:chiseled_tuff_bricks",
+		"components": {
+			"minecraft:custom_name": "Generator Tier 2"
+		}
+	}
+}

@@ -1,0 +1,18 @@
+execute as @a at @s anchored eyes positioned ^ ^ ^0.5 align xyz positioned ~0.5 ~ ~0.5 if block ~ ~ ~ minecraft:composter[level=8] unless entity @e[type=marker,tag=cs_convert,distance=..0.75] run summon marker ~ ~ ~ {Tags:["cs_convert","cs_new"]}
+execute as @a at @s anchored eyes positioned ^ ^ ^1 align xyz positioned ~0.5 ~ ~0.5 if block ~ ~ ~ minecraft:composter[level=8] unless entity @e[type=marker,tag=cs_convert,distance=..0.75] run summon marker ~ ~ ~ {Tags:["cs_convert","cs_new"]}
+execute as @a at @s anchored eyes positioned ^ ^ ^1.5 align xyz positioned ~0.5 ~ ~0.5 if block ~ ~ ~ minecraft:composter[level=8] unless entity @e[type=marker,tag=cs_convert,distance=..0.75] run summon marker ~ ~ ~ {Tags:["cs_convert","cs_new"]}
+execute as @a at @s anchored eyes positioned ^ ^ ^2 align xyz positioned ~0.5 ~ ~0.5 if block ~ ~ ~ minecraft:composter[level=8] unless entity @e[type=marker,tag=cs_convert,distance=..0.75] run summon marker ~ ~ ~ {Tags:["cs_convert","cs_new"]}
+execute as @a at @s anchored eyes positioned ^ ^ ^2.5 align xyz positioned ~0.5 ~ ~0.5 if block ~ ~ ~ minecraft:composter[level=8] unless entity @e[type=marker,tag=cs_convert,distance=..0.75] run summon marker ~ ~ ~ {Tags:["cs_convert","cs_new"]}
+execute as @a at @s anchored eyes positioned ^ ^ ^3 align xyz positioned ~0.5 ~ ~0.5 if block ~ ~ ~ minecraft:composter[level=8] unless entity @e[type=marker,tag=cs_convert,distance=..0.75] run summon marker ~ ~ ~ {Tags:["cs_convert","cs_new"]}
+execute as @a at @s anchored eyes positioned ^ ^ ^3.5 align xyz positioned ~0.5 ~ ~0.5 if block ~ ~ ~ minecraft:composter[level=8] unless entity @e[type=marker,tag=cs_convert,distance=..0.75] run summon marker ~ ~ ~ {Tags:["cs_convert","cs_new"]}
+execute as @a at @s anchored eyes positioned ^ ^ ^4 align xyz positioned ~0.5 ~ ~0.5 if block ~ ~ ~ minecraft:composter[level=8] unless entity @e[type=marker,tag=cs_convert,distance=..0.75] run summon marker ~ ~ ~ {Tags:["cs_convert","cs_new"]}
+execute as @a at @s anchored eyes positioned ^ ^ ^4.5 align xyz positioned ~0.5 ~ ~0.5 if block ~ ~ ~ minecraft:composter[level=8] unless entity @e[type=marker,tag=cs_convert,distance=..0.75] run summon marker ~ ~ ~ {Tags:["cs_convert","cs_new"]}
+execute as @a at @s anchored eyes positioned ^ ^ ^5 align xyz positioned ~0.5 ~ ~0.5 if block ~ ~ ~ minecraft:composter[level=8] unless entity @e[type=marker,tag=cs_convert,distance=..0.75] run summon marker ~ ~ ~ {Tags:["cs_convert","cs_new"]}
+execute as @a at @s anchored eyes positioned ^ ^ ^6 align xyz positioned ~0.5 ~ ~0.5 if block ~ ~ ~ minecraft:composter[level=8] unless entity @e[type=marker,tag=cs_convert,distance=..0.75] run summon marker ~ ~ ~ {Tags:["cs_convert","cs_new"]}
+execute as @a at @s anchored eyes positioned ^ ^ ^7 align xyz positioned ~0.5 ~ ~0.5 if block ~ ~ ~ minecraft:composter[level=8] unless entity @e[type=marker,tag=cs_convert,distance=..0.75] run summon marker ~ ~ ~ {Tags:["cs_convert","cs_new"]}
+execute as @e[type=marker,tag=cs_new] at @s unless block ~1 ~ ~ minecraft:mud unless block ~-1 ~ ~ minecraft:mud unless block ~ ~ ~1 minecraft:mud unless block ~ ~ ~-1 minecraft:mud run kill @s
+execute as @e[type=marker,tag=cs_new] at @s run particle minecraft:enchanted_hit ~ ~1 ~ 0.3 0.5 0.3 0.5 20
+execute as @e[type=marker,tag=cs_new] run tag @s remove cs_new
+execute as @e[type=marker,tag=cs_convert,scores={cs_mud_timer=..0}] run scoreboard players set @s cs_mud_timer 0
+execute as @e[type=marker,tag=cs_convert,tag=!cs_init] at @s if block ~ ~ ~ minecraft:composter[level=8] run setblock ~ ~ ~ minecraft:composter[level=0] replace
+execute as @e[type=marker,tag=cs_convert,tag=!cs_init] run tag @s add cs_init

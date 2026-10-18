@@ -1,0 +1,32 @@
+{
+	"parent": "craftinsky:sapling/oak_sapling",
+	"display": {
+    "icon": {
+			"id": "minecraft:birch_sapling"
+		    },
+	 "title": "wait a minute ?!",
+	 "description": "where it comme from ?",
+     "frame": "task",
+     "show_toast": true,
+     "announce_to_chat": false,
+     "hidden": true
+		
+	},
+
+  "criteria": {
+    "get_cane": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:birch_sapling"
+          }
+        ]
+      }
+    }
+  },
+     "rewards": {
+    "function": "craftinsky:sapling/check_birch_sapling"
+  }
+
+}

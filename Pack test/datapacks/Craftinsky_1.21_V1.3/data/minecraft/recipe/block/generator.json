@@ -1,0 +1,24 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "block",
+	"show_notification": true,
+	"key": {
+		"#": "minecraft:stone",
+		"W": "minecraft:water_bucket",
+		"L": "minecraft:lava_bucket",
+		"X": "minecraft:iron_pickaxe"
+	},
+	"pattern": [
+		"#X#",
+		"L#W",
+		"###"
+	],
+	"result": {
+		"count": 1,
+		"id": "minecraft:lodestone",
+		"components": {
+			"minecraft:custom_name": "Generator",
+			"minecraft:custom_data": {"is_generator": 1}
+		}
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "block",
+	"show_notification": true,
+	"key": {
+		"#": "minecraft:cobblestone",
+		"C": "minecraft:white_dye"
+	},
+	"pattern": [
+		"###",
+		"#C#",
+		"###"
+	],
+	"result": {
+		"count": 8,
+		"id": "minecraft:diorite",
+		"components": {}
+	}
+}

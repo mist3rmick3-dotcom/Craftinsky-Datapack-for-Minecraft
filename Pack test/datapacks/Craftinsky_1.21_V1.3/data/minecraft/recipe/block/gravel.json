@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": [
+    "minecraft:smooth_stone"
+  ],
+  "result": {
+    "id": "minecraft:gravel",
+    "count": 1
+  }
+}

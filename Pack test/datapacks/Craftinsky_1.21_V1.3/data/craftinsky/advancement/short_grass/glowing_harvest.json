@@ -1,0 +1,29 @@
+{
+  "parent": "craftinsky:short_grass/stone_harvest",
+  "display": {
+    "icon": {
+      "id": "minecraft:glow_berries"
+    },
+    "title": "Glow Berries",
+    "description": "Place it under a stone !",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "get_glow_berries": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:glow_berries"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "craftinsky:short_grass/reward_glowing_harvest"
+  }
+}

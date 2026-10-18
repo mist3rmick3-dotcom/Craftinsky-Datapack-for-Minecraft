@@ -1,0 +1,25 @@
+{
+  "parent": "craftinsky:block/diorite",
+  "display": {
+    "icon": { "id": "minecraft:andesite" },
+    "title": "Andesite Collector",
+    "description": "Collect 64 Andesite blocks.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "has_andesite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": "minecraft:andesite", "count": { "min": 64 } }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "craftinsky:block/check_andesite"
+  }
+}

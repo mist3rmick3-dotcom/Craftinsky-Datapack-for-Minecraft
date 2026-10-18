@@ -1,0 +1,29 @@
+{
+    "values":  [
+                   "craftinsky:composter/composter_mud_tick",
+                   "craftinsky:composter/composter_convert_tick",
+                   "craftinsky:glow_berry_convert",
+                   "craftinsky:generator/generator_place",
+                   "craftinsky:generator/generator_check",
+                   "craftinsky:generator/generator_particles",
+                   "craftinsky:tick",
+                   "craftinsky:generator/generator_tick",
+                   "craftinsky:coarse_dirt/coarse_dirt_init",
+                   "craftinsky:coarse_dirt/coarse_dirt_tick",
+                   "craftinsky:dirt_to_mud_convert/dirt_to_mud_try",
+                   "craftinsky:dirt_to_mud_convert/dirt_to_mud_tick",
+                   "craftinsky:sapling_converter/summon_interaction",
+                   "craftinsky:copper_golem/summon_watcher",
+                   "craftinsky:copper_golem/watcher_tick",
+                   "craftinsky:cauldron_obsidian/summon_interaction",
+                   "craftinsky:cauldron_obsidian/detect_rightclick",
+                   "craftinsky:cauldron_obsidian/detect_second_click",
+                   "craftinsky:cauldron_obsidian/check_second_display",
+                   "craftinsky:cauldron_magma/summon_interaction",
+                   "craftinsky:cauldron_magma/detect_rightclick",
+                   "craftinsky:cauldron_magma/detect_second_click",
+                   "craftinsky:cauldron_ice/summon_interaction",
+                   "craftinsky:cauldron_ice/detect_rightclick",
+                   "craftinsky:cauldron_ice/detect_second_click"
+               ]
+}

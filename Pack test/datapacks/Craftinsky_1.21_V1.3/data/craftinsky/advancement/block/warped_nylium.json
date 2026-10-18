@@ -1,0 +1,25 @@
+{
+  "parent": "craftinsky:block/netherrack",
+  "display": {
+    "icon": { "id": "minecraft:warped_nylium" },
+    "title": "Warped Nylium Collector",
+    "description": "Collect 64 Warped Nylium blocks.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "has_warped_nylium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": "minecraft:warped_nylium", "count": { "min": 64 } }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "craftinsky:block/check_warped_nylium"
+  }
+}

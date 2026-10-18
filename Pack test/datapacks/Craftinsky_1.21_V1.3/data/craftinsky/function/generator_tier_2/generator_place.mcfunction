@@ -1,0 +1,14 @@
+# Renomme automatiquement toutes les chiseled_tuff_brickss au sol en Generator (sans guillemets)
+execute as @e[type=item,nbt={Item:{id:"minecraft:chiseled_tuff_bricks"}}] run data merge entity @s {Item:{components:{"minecraft:custom_name":"Generator Tier 2"}}}
+
+# Détecte quand un joueur regarde une chiseled_tuff_bricks et spawn l'armor stand centré (portée 5 blocs)
+execute as @a at @s anchored eyes positioned ^ ^ ^0.5 align xyz positioned ~0.5 ~ ~0.5 if block ~ ~ ~ chiseled_tuff_bricks unless entity @e[type=armor_stand,tag=generator_tier_2,distance=..1] run function craftinsky:generator_tier_2/generator_setup
+execute as @a at @s anchored eyes positioned ^ ^ ^1 align xyz positioned ~0.5 ~ ~0.5 if block ~ ~ ~ chiseled_tuff_bricks unless entity @e[type=armor_stand,tag=generator_tier_2,distance=..1] run function craftinsky:generator_tier_2/generator_setup
+execute as @a at @s anchored eyes positioned ^ ^ ^1.5 align xyz positioned ~0.5 ~ ~0.5 if block ~ ~ ~ chiseled_tuff_bricks unless entity @e[type=armor_stand,tag=generator_tier_2,distance=..1] run function craftinsky:generator_tier_2/generator_setup
+execute as @a at @s anchored eyes positioned ^ ^ ^2 align xyz positioned ~0.5 ~ ~0.5 if block ~ ~ ~ chiseled_tuff_bricks unless entity @e[type=armor_stand,tag=generator_tier_2,distance=..1] run function craftinsky:generator_tier_2/generator_setup
+execute as @a at @s anchored eyes positioned ^ ^ ^2.5 align xyz positioned ~0.5 ~ ~0.5 if block ~ ~ ~ chiseled_tuff_bricks unless entity @e[type=armor_stand,tag=generator_tier_2,distance=..1] run function craftinsky:generator_tier_2/generator_setup
+execute as @a at @s anchored eyes positioned ^ ^ ^3 align xyz positioned ~0.5 ~ ~0.5 if block ~ ~ ~ chiseled_tuff_bricks unless entity @e[type=armor_stand,tag=generator_tier_2,distance=..1] run function craftinsky:generator_tier_2/generator_setup
+execute as @a at @s anchored eyes positioned ^ ^ ^3.5 align xyz positioned ~0.5 ~ ~0.5 if block ~ ~ ~ chiseled_tuff_bricks unless entity @e[type=armor_stand,tag=generator_tier_2,distance=..1] run function craftinsky:generator_tier_2/generator_setup
+execute as @a at @s anchored eyes positioned ^ ^ ^4 align xyz positioned ~0.5 ~ ~0.5 if block ~ ~ ~ chiseled_tuff_bricks unless entity @e[type=armor_stand,tag=generator_tier_2,distance=..1] run function craftinsky:generator_tier_2/generator_setup
+execute as @a at @s anchored eyes positioned ^ ^ ^4.5 align xyz positioned ~0.5 ~ ~0.5 if block ~ ~ ~ chiseled_tuff_bricks unless entity @e[type=armor_stand,tag=generator_tier_2,distance=..1] run function craftinsky:generator_tier_2/generator_setup
+execute as @a at @s anchored eyes positioned ^ ^ ^5 align xyz positioned ~0.5 ~ ~0.5 if block ~ ~ ~ chiseled_tuff_bricks unless entity @e[type=armor_stand,tag=generator_tier_2,distance=..1] run function craftinsky:generator_tier_2/generator_setup

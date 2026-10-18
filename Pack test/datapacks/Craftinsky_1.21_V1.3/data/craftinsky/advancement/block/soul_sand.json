@@ -1,0 +1,25 @@
+{
+  "parent": "craftinsky:block/obsidian",
+  "display": {
+    "icon": { "id": "minecraft:soul_sand" },
+    "title": "Soul Sand Collector",
+    "description": "Collect 64 Soul Sand blocks.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "has_soul_sand": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": "minecraft:soul_sand", "count": { "min": 64 } }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "craftinsky:block/check_soul_sand"
+  }
+}

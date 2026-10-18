@@ -1,0 +1,29 @@
+{
+  "parent": "craftinsky:short_grass/iron_harvest",
+  "display": {
+    "icon": {
+      "id": "minecraft:sugar_cane"
+    },
+    "title": "Sugar Cane",
+    "description": "Get sugar cane from grass with a golden hoe",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "get_cane": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:sugar_cane"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "craftinsky:short_grass/reward_golden_harvest"
+  }
+}

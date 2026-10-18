@@ -1,0 +1,38 @@
+{
+	"parent": "minecraft:recipes/root",
+	"criteria": {
+		"has_stone": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:cobblestone"
+					}
+				]
+			}
+		},
+		"has_white_dye": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "minecraft:white_dye"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_stone"
+		],
+		[
+			"has_white_dye"
+		]
+	],
+	"rewards": {
+		"recipes": [
+			"minecraft:block/diorite"
+		]
+	}
+}
