@@ -1,4 +1,4 @@
-CrafinSky — Skyblock datapack that restores missing resources for progression.
+CraftinSky — Skyblock datapack that restores missing resources for progression.
 
 1. Hoes on short grass
    - Use a hoe on short grass to obtain special seeds or resources depending on the hoe material:
