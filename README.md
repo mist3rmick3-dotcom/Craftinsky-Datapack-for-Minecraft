@@ -1,44 +1,35 @@
-# CraftinSky — Présentation du datapack
-
+**CraftinSky — Datapack Overview**
 https://discord.gg/umMeHjHn2
 
-CraftinSky est un datapack pensé pour enrichir l’expérience de survie en Skyblock Vanilla, tout en gardant l’esprit du gameplay Minecraft.
+CraftinSky is a datapack designed to enrich the survival experience in Vanilla Skyblock, while preserving the spirit of Minecraft gameplay.
 
-Son but est de rendre la progression plus vivante, plus progressive et plus agréable, en ajoutant des mécaniques utiles et cohérentes avec le départ limité d’un monde Skyblock.
+Its goal is to make progression more lively, more gradual and more enjoyable, by adding useful mechanics that are coherent with the limited starting point of a Skyblock world.
 
-## Contenu global
+**Overall content**
 
-### Amélioration de la survie
+**Survival improvements**
+Systems designed to support the player from their very first resources, without making the beginning too easy.
 
-Des systèmes pensés pour accompagner le joueur dès les premières ressources, sans rendre le début trop facile.
+**Farming and fertilisation**
+New conversions and interactions involving dirt, water, mushrooms and mud, to diversify agricultural production.
 
-### Agriculture et fertilisation
+**More wood**
+New mechanics allow you to gradually obtain every available wood variety.
 
-De nouvelles conversions et interactions liées à la terre, à l’eau, aux champignons et à la boue, pour diversifier la production agricole.
+**Resource generation**
+Block production or transformation systems, tailored to the constraints of a Skyblock world.
 
-### Davantage de bois
+**Mobs and loots**
+Adjusted behaviours and rewards to make encounters and trades more relevant.
 
-De nouvelles mécaniques permettent d’obtenir progressivement chaque variété de bois disponible.
+**Quality of life**
+Sounds, particles, interactions and visual feedback added to make the mechanics clearer and more immersive.
 
-### Génération de ressources
+**In short**
+CraftinSky aims to improve Skyblock survival by adding useful, progressive and coherent content: farming, wood, resources, exploration and gameplay experience, without altering the fundamentals of Minecraft.
 
-Des systèmes de production ou de transformation de blocs, adaptés aux contraintes d’un monde Skyblock.
+**Survival map**
+The craftinsky_V1.XX folder contains the Minecraft Skyblock survival map, with the datapack built in. After downloading or cloning the repository, copy this folder into the saves directory of your Minecraft installation.
 
-### Mobs et loots
-
-Des comportements et récompenses ajustés pour rendre les rencontres et les échanges plus pertinents.
-
-### Qualité de jeu
-
-Sons, particules, interactions et retours visuels ajoutés pour rendre les mécaniques plus lisibles et plus immersives.
-
-## En résumé
-
-CraftinSky cherche à améliorer la survie Skyblock en ajoutant du contenu utile, progressif et cohérent : agriculture, bois, ressources, exploration et expérience de jeu, sans dénaturer les bases de Minecraft.
-
-## Carte de survie
-
-Le dossier `craftinsky_V1.XX` contient la map Minecraft survie skyblock, avec le datapack intégré. Après avoir téléchargé ou cloné le dépôt, copiez ce dossier dans le répertoire `saves` de votre installation Minecraft.
-## Carte de test
-
-Le dossier `Pack test` contient une map Minecraft permettant de tester les ajouts de CraftinSky directement en jeu, notamment via des blocs de commande. Après avoir téléchargé ou cloné le dépôt, copiez ce dossier dans le répertoire `saves` de votre installation Minecraft.
+Test map
+The Pack test folder contains a Minecraft map that lets you test CraftinSky's additions directly in game, notably through command blocks. After downloading or cloning the repository, copy this folder into the saves directory of your Minecraft installation.
